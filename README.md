@@ -1,4 +1,8 @@
-# taew
+# Take an Emotion Walk
+
+This is the official implementation of the paper Take an Emotion Walk: Perceiving Emotions from Gaits Using Hierarchical Attention Pooling and Affective Mapping. Please add the following citation in your work if you use our code:
+
+@inproceedings{bhattacharya2020taew, title={Take an Emotion Walk: Perceiving Emotions from Gaits Using Hierarchical Attention Pooling and Affective Mapping.}, author={Bhattacharya, Uttaran and Roncal, Christian and Mittal, Trisha and Chandra, Rohan and Bera, Aniket and Manocha, Dinesh and Kapsaskis, Kyra and Gray, Kurt}, booktitle={ECCV}, year={2020} }
 
 Our scripts have been tested on Ubuntu 18.04 LTS with
 - Python 3.6
@@ -48,7 +52,7 @@ For taew evaluation:
 python evaluate.py --taew
 ```
 
-## Further Usage Details for TAEW_NET
+## Details for using taew_net as stand-alone
 1. ```main.py```is the starting point of the code. It is runnable out-of-the-box once the datasets directory is downloaded and extracted. It also contains the full list of arguments for using the code.
 2. ```utils/loader.py``` is used for loading the data and the labels. Labels are only available for the annotated part of the data.
 3. ```utils/processor.py```contains the main training routine with forward and backward passes on the network, and parameter updates per iteration.
