@@ -4,12 +4,12 @@ This is the official implementation of the paper Take an Emotion Walk: Perceivin
 
 @inproceedings{bhattacharya2020taew, title={Take an Emotion Walk: Perceiving Emotions from Gaits Using Hierarchical Attention Pooling and Affective Mapping.}, author={Bhattacharya, Uttaran and Roncal, Christian and Mittal, Trisha and Chandra, Rohan and Bera, Aniket and Manocha, Dinesh and Kapsaskis, Kyra and Gray, Kurt}, booktitle={ECCV}, year={2020} }
 
+## Install Requirements
+
 Our scripts have been tested on Ubuntu 18.04 LTS with
 - Python 3.6
 - Cuda 10.2
 - cudNN 7.6.5
-
-## Installing Requirements
 
 We recommend using an Anaconda virtual environment. If Anaconda is not already installed, [Install Anaconda](https://www.anaconda.com/distribution/#download-section) and run
 ``` 
