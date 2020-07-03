@@ -24,6 +24,8 @@ Run the following command from within the project directory to download and extr
 sh download_data_weights.sh
 ```
 
+We have used the Emotion-Gait dataset for this work. The full dataset is available for download here: [https://go.umd.edu/emotion-gait](https://go.umd.edu/emotion-gait).
+
 ## Evaluation
 
 1. Activate the conda environment
